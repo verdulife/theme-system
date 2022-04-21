@@ -5,6 +5,9 @@
 		<li>
 			<a href="/palettes">Palettes</a>
 		</li>
+		<li>
+			<a href="/buttons">Buttons</a>
+		</li>
 	</ul>
 </nav>
 
@@ -18,10 +21,9 @@
 		padding: 20px;
 		transition: 200ms;
 
-		img {
-			cursor: pointer;
-			filter: invert(1);
-			transition: 200ms;
+		ul {
+			gap: 20px;
+			margin-left: 40px;
 		}
 	}
 </style>
